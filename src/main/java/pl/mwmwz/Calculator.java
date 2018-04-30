@@ -6,6 +6,19 @@ public class Calculator {
     int a = 2;
     int b = 5;
 
+    public Calculator(int a, int b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
     void wprowadz() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("podaj liczbę A");
