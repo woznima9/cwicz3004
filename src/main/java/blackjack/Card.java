@@ -1,10 +1,10 @@
 package blackjack;
 
 public enum Card {
-    AsPik("AP", 10),
-    AsKier("AK", 10),
-    AsCaro("AC", 10),
-    AsTrefl("AT", 10),
+    AsPik("AP", 11),
+    AsKier("AK", 11),
+    AsCaro("AC", 11),
+    AsTrefl("AT", 11),
 
     KrolPik("KP", 10),
     KrolKier("KK", 10),
@@ -67,20 +67,17 @@ public enum Card {
     _2Trefl("2T", 2);
 
     private String abbreviation;
-    private int score;
+    private int strenght;
 
-    Card(String abbreviation, int score) {
+    Card(String abbreviation, int strenght) {
         this.abbreviation = abbreviation;
-        this.score = score;
+        this.strenght = strenght;
     }
 
-    public int getScore() {
-        return score;
+    public int getStrenght() {
+        return strenght;
     }
 
-    public void setScore(int score) {
-        this.score = score;
-    }
 
     @Override
     public String toString() {
