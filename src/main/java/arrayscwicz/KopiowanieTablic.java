@@ -9,6 +9,8 @@ public class KopiowanieTablic {
         int vector = 5;
         int key = 1;
 
+
+        System.out.println("klawisze 1- przesuń figurę w lewo        2- przesuń w prawo    inny numer - Exit");
         Scanner scanner = new Scanner(System.in);
         while (!(key == 1 && key == 2)) {
 

@@ -13,7 +13,7 @@ public class Player {
         System.out.println(playerCards);
     }
 
-    int obliczPunkty() {
+    public int obliczPunkty() {
         int suma = 0;
         for (Card card : playerCards) {
             suma = suma + card.getStrenght();

@@ -14,6 +14,7 @@ public class NameIterator {
         names.put(6, "Karol Piotrowski -42");
         names.put(-3, "Michalina Borowska - 15");
         names.put(77, "Monika Cłapa - 15");
+        names.put(6, "Łukasz -42");
 
         Iterator<String> valuesIterator = names.values().iterator();
         while (valuesIterator.hasNext()) {
