@@ -1,5 +1,7 @@
 package kwiaciarnia;
 
+import sun.management.Agent;
+
 import java.util.ArrayList;
 
 public class CollectionData<T> extends ArrayList<T> {
@@ -10,7 +12,4 @@ public class CollectionData<T> extends ArrayList<T> {
         }
     }
 
-    public CollectionData(Pies pies, int quantity) {
-
-    }
 }
